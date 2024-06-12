@@ -1,7 +1,9 @@
 field,display_name,browse_link,external_link,dc_map,schema_map
 title,Title,,,DCTERMS.title,headline
-creator,Creator,,,DCTERMS.creator,creator
-date,Date Created,,,DCTERMS.date,dateCreated
+creator,Cidery,true,,DCTERMS.creator,creator
+creator_link,Cidery Website,,true,,
+date,Date Rated,,,DCTERMS.date,dateCreated
+rating,Rating,,,,
 description,Description,,,DCTERMS.description,description
 subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
