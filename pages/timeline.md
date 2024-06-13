@@ -1,7 +1,7 @@
 ---
-title: Timeline
+title: Ratings
 layout: timeline
-permalink: /timeline.html
+permalink: /ratings.html
 ---
 
-## Collection Timeline
+## Ciders by Rating
