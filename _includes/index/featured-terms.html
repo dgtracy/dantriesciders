@@ -29,7 +29,7 @@
     Use termsField and termsMax to customize feature 
 {% endcomment %}
 {% assign termsField = include.field | default: "subject" %}
-{% assign termsMax = include.max | default: 5 %}
+{% assign termsMax = include.max | default: 15 %}
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign terms = site.data[site.metadata] | where_exp: 'item','item.objectid' | map: termsField | join: ";" -%}
 {% else %}
